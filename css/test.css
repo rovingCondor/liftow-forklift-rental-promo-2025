@@ -1,0 +1,803 @@
+/* Utility Classes | START */
+
+.section-spacer {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.content-container {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding:  0 1rem;
+    width: min(100%, 100rem);
+    text-align: center;
+}
+
+.section-container-black {
+    background-color: #1b1b1b;
+    color: #ffffff; 
+}
+
+.section-container-gray-100 {
+    background-color: #F0F0F0;
+    color: #1b1b1b; 
+}
+.section-container-gray-200 {
+    background-color: #EDEDED;
+    color: #1b1b1b; 
+}
+
+.section-container-footer {
+    background-color: #F5F3ED;
+    color: #1b1b1b; 
+}
+
+.section-container-white {
+    background-color: #ffffff;
+    color: #1b1b1b; 
+}
+
+.section-container-orange {
+    background-color: #FF6C0C;
+    color: #1b1b1b; 
+}
+
+.section-container-gray100 {
+    background-color: #f8f8f8;
+    color: #575757; 
+}
+
+.img-full-width {
+    width: 100%;
+}
+
+a.cta-link {
+    text-decoration: none;
+}
+
+button.cta-template {
+    /* margin-top: 2rem; */
+    padding: 1rem 1rem;
+    width: min(100%, 21rem);
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #FFED00;
+    transition: all 200ms ease;
+}
+
+button.cta-template:hover {
+    color: #1b1b1b;
+    background-color: #fcca00 ;
+}
+
+button.cta-template.orange-bg {
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    width: min(100%, 25rem);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+
+button.cta-template.orange-bg:hover {
+    color: #1b1b1b;
+    background-color: #fceb00 ;
+}
+
+button.cta-template.secondary {
+    margin-top: 0;
+    padding: 1rem 1rem;
+    width: min(100%, 21rem);
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    transition: all 200ms ease;
+}
+
+button.cta-template.secondary:hover {
+    color: #1b1b1b;
+    background-color: #fceb00;
+}
+
+button.cta-template.tertiary {
+    margin-top: 0;
+    padding: 1rem 1rem;
+    width: min(100%, 21rem);
+    font-weight: 800;
+    color: #1b1b1b;
+    background-color: #fceb00;
+    transition: all 200ms ease;
+}
+
+button.cta-template.tertiary:hover {
+    color: #ffffff;
+    background-color: #FF6C0C;
+}
+
+button.secondary-nav {
+    margin-top: 1rem;
+    padding: 0.7rem 0;
+    width: min(100%, 15rem);
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+
+button.secondary-nav:hover {
+    background-color: #1b1b1b;
+}
+
+button.secondary {
+    margin-top: 0;
+    padding: 0.75rem 0.5rem;
+    width: min(100%, 21rem);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    /* border: 2px solid #FF6C0C; */
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+/* Utility Classes | END */
+
+
+
+/* MAIN STYLES */
+
+/* Header section | START */
+.Q32024-ti-tu-header-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.Q32024-ti-tu-header-container .content-container {
+    position: relative;
+    z-index: 20;
+}
+
+.Q32024-ti-tu-header-container .img-container {
+    padding: 0 1rem;
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+}
+
+.Q32024-ti-tu-header-container img.liftow-logo  {
+    max-width: 300px;
+}
+
+.Q32024-ti-tu-header-container .header-content-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Q32024-ti-tu-header-container .header-content-container img.cta-desktop {
+    width: min(100%, 500px);
+}
+
+.Q32024-ti-tu-header-container img.trade-in-lockup {
+    width: min(50%, 200px);
+}
+
+.header-content-container p {
+    font-size: 1rem;
+    line-height: 160%
+}
+
+.Q32024-ti-tu-header-container .secondary-content p {
+    font-size: 0.9rem;
+    line-height: 120%
+}
+
+.Q32024-ti-tu-header-container button.hero {
+    margin: 2rem 0 2rem 0;
+    width: min(90%, 30rem);
+}
+
+.Q32024-ti-tu-header-container .product-img {
+    width: min(80%, 500px);
+    position: relative;
+    left: -2rem;
+}
+
+
+section.grounding-bars .orange-bar {
+    height: 0.75rem;
+    background-color: #FF6C0C
+}
+
+.Q32024-ti-tu-header-container .clr-fill {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /* background-color: #FF6C0C; */
+    background-color: #1b1b1b;
+    opacity: 0.85;
+}
+
+
+@media (min-width: 75rem) {
+    .Q32024-ti-tu-header-container img.bg-img-hero {
+        transform: translateX(0%);
+    }
+
+    
+    .Q32024-ti-tu-header-container .content-container {
+        position: relative;
+        left: -13rem;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-areas: "img cta";
+        align-items: center;
+    }
+
+    .Q32024-ti-tu-header-container .header-content-container {
+        grid-area: cta;
+        justify-self: flex-end;
+        text-align: center;
+    }
+
+    .Q32024-ti-tu-header-container .product-img {
+        width: 650px;
+        left: 0;
+        grid-area: img;
+        justify-self: flex-end;
+        position: relative;
+        top: 4.5rem;
+    }
+
+    .Q32024-ti-tu-header-container .img-container {
+        justify-content: start;
+    }
+ 
+    .header-content-container p {
+        padding-right: 50%;
+    }
+}
+
+button.cta-template.mobile {
+    margin-bottom: 2rem;
+}
+
+/* Header section | END */
+
+
+/* Form | START */
+/* !! IMPORTANT | OVERRIDE FORM STYLES FROM THEME + CLICK DIMENSION STYLES !! | START  */
+
+.form-container {
+  display: block !important;
+  padding: 0;
+  background-color: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-container img.angled-bar {
+    position: absolute;
+    z-index: 10;
+    top: -1rem;
+    right: -50%;
+}
+
+.contact-page-content {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-container img.angled-bar {
+    right: -2%;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-page-content {
+    margin: 0 !important;
+  }
+}
+
+.form-buttons {
+  margin: 15px auto 0 auto;
+  width: min(100%, 600px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-field-input {
+  border: none;
+  /* ^^ remove theme setting ^^  */
+  border-bottom: 2px solid #474747;
+  background-color: #ebebeb;
+}
+
+.form-field-input:focus {
+  background-color: #ffffff;
+}
+
+.form-field-title {
+  font-size: 1rem;
+  color: #77777a;
+}
+
+input#submit {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff6c0c;
+  border: 1px solid #ff6c0c;
+  transition: all 200ms ease;
+}
+
+input#submit:hover {
+  color: #000000;
+  background-color: #ffb800;
+  border: 1px solid #ffb800;
+  box-shadow: none;
+}
+
+#cancle-form.merox-reset {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #9d9d9d;
+  border: 2px solid #9d9d9d;
+  background-color: transparent;
+  transition: all 200ms ease;
+}
+
+#cancle-form.merox-reset:hover {
+  color: #818181;
+  background-color: #ffffff;
+  border: 2px solid #818181;
+}
+
+/* !! IMPORTANT | OVERRIDE FORM STYLES FROM THEME + CLICK DIMENSION STYLES !! | END  */
+
+/* Form Styles | START */
+.action-contact-form {
+    margin: 0 auto 2rem auto;
+    padding: 2rem 2rem;
+    width: min(100%, 75rem);
+    position: relative;
+    z-index: 500;
+    top: 2rem;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.action-contact-form h3 {
+    margin: 1rem 0 2.5rem 0;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 90%;
+    color: #77777a;
+}
+
+.action-contact-form h3 span {
+    font-size: 0.8rem;
+}
+
+.action-contact-form span.asterisk {
+    position: relative;
+    top:-0.7rem;
+    left: 0.08rem;
+    font-size: 0.6rem;
+}
+
+@media (min-width: 45rem) {
+    
+    .action-contact-form h3 {
+        font-size: 2rem;
+        line-height: 90%;
+    }
+    
+    .action-contact-form h3 span {
+        font-size: 1rem;
+    }
+    
+    .action-contact-form span.asterisk {
+        position: relative;
+        top:-0.8rem;
+        left: 0.08rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+@media (min-width: 75rem) {
+
+  .action-contact-form {
+    top: 4rem;
+}
+  
+    .form-inputs-container {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+  }
+
+  
+}
+
+
+
+
+.action-contact-form button {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #FF6C0C;
+}
+
+/* @media (min-width: 75rem) {
+  .form-inputs-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+} */
+
+/* Form Styles | END */
+
+
+
+
+
+
+
+
+/* Promo Supporting Copy | START */
+section.promo-supporting-copy {
+    padding: 1rem 0 3rem 0;
+}
+
+.promo-supporting-copy-content-container h2 {
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 90%;
+    color: #1b1b1b;
+}
+
+.promo-supporting-copy-content-container h2 span {
+    position: relative;
+    left: 1rem;
+}
+
+.promo-supporting-copy-content-container p {
+    margin-bottom: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.19rem;
+    font-weight: 800;
+    line-height: 120%;
+    color: #77777a;
+}
+
+.promo-supporting-copy-content-container img.forklift-lineup {
+    width: min(100%, 830px);
+}
+
+
+/* Tables | START */
+.promo-supporting-copy .tables-container  {
+    margin: 1rem auto 0 auto;
+    width: min(100%, 45rem);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.table-01,
+.table-02,
+.table-03 {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+}
+
+.promo-supporting-copy .tables-container .heading th {
+    padding: 0.4rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    border: 1px solid #FF6C0C;
+    background-color: #FF6C0C;
+}
+
+.promo-supporting-copy .tables-container .subheading th {
+    padding: 0.4rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #1b1b1b;
+    border: 1px solid #FFDEC6;
+    background-color: #FFDEC6;
+}
+
+.promo-supporting-copy .tables-container td {
+    padding: 0.6rem 1.5rem;
+    width: 33.33%;
+    border: 1px solid #c8c8c8;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #77777A;
+    background-color: #ffffff;
+}
+
+@media (min-width: 65rem) {
+    .promo-supporting-copy .tables-container {
+
+        width: min(100%, 100rem);
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+/* Tables | END */
+
+.promo-supporting-copy-content-container .benefits-container .header {
+    margin: 0 auto;
+    width: min(100%, 55rem);
+}
+
+.promo-supporting-copy-content-container .benefits-container h3 {
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.69rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #77777A;
+}
+
+.promo-supporting-copy-content-container .benefits-container p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #77777A;
+}
+
+.promo-supporting-copy-content-container .icon-main-container {
+    margin: 0 auto;
+    width: min(100%, 700px);
+}
+
+.promo-supporting-copy-content-container .icon-main-container h4 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #77777A;
+}
+
+.promo-supporting-copy-content-container .img-applications-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.promo-supporting-copy-content-container .img-applications-container img {
+    height: 100px;
+}
+
+.promo-supporting-copy-content-container .img-applications-container p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (min-width: 37.5rem) {
+    .promo-supporting-copy-content-container .icon-main-container {
+        width: min(100%, 600px);
+    }
+
+    .promo-supporting-copy-content-container .img-applications-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+
+@media (min-width: 55rem) { 
+
+    .promo-supporting-copy-content-container h2 {
+        font-size: 2.68rem;
+    }
+
+    .promo-supporting-copy-content-container .icon-main-container {
+        width: min(100%, 700px);
+    }
+
+    .promo-supporting-copy-content-container .img-applications-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+}
+
+
+/* Promo Supporting Copy | END */
+
+
+
+
+/* CTA Footer | START */
+.Q32024-ti-tu-cta-footer-container {
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+    position: relative;
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/Technician_Servicing_Forklift_Willer_11.jpg?v=1670494474);
+    background-size: cover;
+    background-position: center;
+}
+
+.Q32024-ti-tu-cta-footer-container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+.Q32024-ti-tu-cta-footer-container .content-container {
+    position: relative;
+    z-index: 20;
+}
+
+.Q32024-ti-tu-cta-footer-container .header-content-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Q32024-ti-tu-cta-footer-container .header-content-container img.cta-desktop {
+    width: min(100%, 500px);
+}
+
+.Q32024-ti-tu-cta-footer-container img.trade-in-lockup {
+    width: min(50%, 200px);
+}
+
+.Q32024-ti-tu-cta-footer-container .secondary-content p {
+    font-size: 0.9rem;
+    line-height: 120%
+}
+
+.Q32024-ti-tu-cta-footer-container button.hero {
+    margin: 2rem 0 2rem 0;
+    width: min(90%, 30rem);
+}
+
+.Q32024-ti-tu-cta-footer-container .prod-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Q32024-ti-tu-cta-footer-container .product-img {
+    margin-top: 0.75rem;
+    width: min(100%, 700px);
+}
+
+
+@media (min-width: 75rem) {
+    .Q32024-ti-tu-cta-footer-container {
+        padding: 0;
+    }
+
+    .Q32024-ti-tu-cta-footer-container .content-container {
+        width: 1200px;
+        position: relative;
+        left: -3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "img cta";
+        align-items: center;
+    }
+
+    .Q32024-ti-tu-cta-footer-container .header-content-container {
+        grid-area: cta;
+        text-align: center;
+    }
+
+    .Q32024-ti-tu-cta-footer-container .prod-img-container {
+        position: relative;
+        top: 3rem;
+    }
+
+    .Q32024-ti-tu-cta-footer-container .trade-in-lockup {
+        position: relative;
+        top: -1rem;
+    }
+
+    .Q32024-ti-tu-cta-footer-container .product-img {
+        width: 700px;
+        grid-area: img;
+    }
+
+    .Q32024-ti-tu-header-container .img-container {
+        justify-content: start;
+    }
+
+    .Q32024-ti-tu-cta-footer-container button.hero {
+        margin: 2rem 0 0 0;
+    }
+
+}
+/* CTA Footer | END */
+
+
+
+/* Footer | Condensed section | START */
+.footer-Q32024-ti-tu-landing-page .content-container-footer {
+    margin-bottom: 0;
+    padding: 3.5rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+.footer-content-top img.liftow-logo  {
+    width: 300px;
+}
+
+.social-icon-container {
+    margin-bottom: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icon-container img {
+    height: 25px;
+}
+
+.liftow-legal {
+    color: #77777A;
+}
+
+@media (min-width: 75rem) {
+    .footer-Q32024-ti-tu-landing-page .footer-content-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-content-top img.liftow-logo  {
+        width: 400px;
+    }
+
+    .social-icon-container {
+        margin-bottom: 0;
+        align-items: center;
+    }
+}
